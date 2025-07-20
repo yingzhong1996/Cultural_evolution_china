@@ -1,0 +1,25 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Flask instance folder
+instance/
+
+
+# Migrations folder
+migrations/
+
+data/*.csv
+
+# VSCode 设置
+.vscode/
+
+# macOS 系统文件
+.DS_Store
