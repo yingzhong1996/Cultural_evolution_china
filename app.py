@@ -133,10 +133,5 @@ def model():
 
 
 if __name__ == '__main__':
-    csv_file = os.path.join(
-      os.path.dirname(__file__),
-      'data','results.csv'
-    )
-    import_csv_to_fictions(csv_file)
     app.run(debug=True)
 
