@@ -52,7 +52,6 @@ def import_csv_to_fictions(csv_path):
     df2 = df[want]
     with app.app_context():
         # recreate table & load
-        db.drop_all()
         db.create_all()
         df2.to_sql(
             name='fictions',
